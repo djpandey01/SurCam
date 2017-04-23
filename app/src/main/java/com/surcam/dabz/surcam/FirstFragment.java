@@ -32,7 +32,7 @@ public WebView mWebView;
                              Bundle savedInstanceState) {
         View v=inflater.inflate(R.layout.fragment_first, container, false);
         mWebView = (WebView) v.findViewById(R.id.web1);
-        mWebView.loadUrl("http://192.168.0.101/video.cgi/");
+        mWebView.loadUrl("http://192.168.0.100/video.cgi/");
         //mWebView.loadUrl("http://google.com/");
 
         // Enable Javascript
